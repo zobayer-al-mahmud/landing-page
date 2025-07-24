@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXUS DRINKS - Premium Cosmic Beverages</title>
+    <meta name="description" content="Experience the future of premium drinks with our zero-gravity collection">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">NEXUS</span>
+                <span class="logo-accent">DRINKS</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#collection" class="nav-link">Collection</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <button class="nav-order-btn">Order Now</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="main-container">
+        <!-- 3D Scene Container -->
+        <div id="three-container" class="three-container"></div>
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">PREMIUM</span>
+                    <span class="title-line glow">COSMIC</span>
+                    <span class="title-line">BEVERAGES</span>
+                </h1>
+                <p class="hero-subtitle">Experience the future of taste in zero gravity</p>
+                <div class="hero-cta">
+                    <button class="cta-primary">
+                        <span class="cta-text">ORDER NOW</span>
+                        <span class="cta-glow"></span>
+                    </button>
+                    <button class="cta-secondary">
+                        <span>Explore Collection</span>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Floating UI Elements -->
+            <div class="floating-ui">
+                <div class="ui-element ui-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">99.8%</span>
+                        <span class="stat-label">Purity</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">0G</span>
+                        <span class="stat-label">Gravity</span>
+                    </div>
+                </div>
+                
+                <div class="ui-element ui-flavor">
+                    <div class="flavor-indicator">
+                        <div class="flavor-dot active" style="--color: #00f5ff"></div>
+                        <div class="flavor-dot" style="--color: #ff0080"></div>
+                        <div class="flavor-dot" style="--color: #8000ff"></div>
+                    </div>
+                    <span class="flavor-text">Cosmic Blue</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <div class="scroll-text">SCROLL TO EXPLORE</div>
+        </div>
+
+        <!-- Collection Preview Section -->
+        <section id="collection" class="collection-section">
+            <div class="collection-content">
+                <h2 class="section-title">ZERO GRAVITY COLLECTION</h2>
+                <div class="collection-grid">
+                    <div class="collection-item">
+                        <div class="item-preview">
+                            <div class="item-glow"></div>
+                        </div>
+                        <h3>Cosmic Blue</h3>
+                        <p>Electric blueberry with stellar fizz</p>
+                    </div>
+                    <div class="collection-item">
+                        <div class="item-preview">
+                            <div class="item-glow violet"></div>
+                        </div>
+                        <h3>Violet Nebula</h3>
+                        <p>Mystical grape with cosmic essence</p>
+                    </div>
+                    <div class="collection-item">
+                        <div class="item-preview">
+                            <div class="item-glow cyan"></div>
+                        </div>
+                        <h3>Cyan Storm</h3>
+                        <p>Tropical fusion in zero gravity</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r158/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
