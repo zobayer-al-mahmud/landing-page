@@ -43,7 +43,7 @@ body::after {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('Assets/bottle-bg.jpg') no-repeat center center;
+    background: url('assets/bottle-bg.jpg') no-repeat center center;
     background-size: cover;
     opacity: 0.18;
     pointer-events: none;
